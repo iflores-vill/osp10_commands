@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/admin_v3
+
 output_file=tenant_in-use_quota_$(date +%b-%m-%Y:%H%M).csv
 
 echo "Tenant Name, Tenant ID, in-use Instances, quota Instances, in-use Gigabytes, quota Gigabytes, in-use Volumes, quota Volumes, in-use FIPs, quota FIPs, in-use Networks, quota Networks" > $output_file

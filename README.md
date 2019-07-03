@@ -8,4 +8,6 @@ Ejemplo ejecución:
 
 [user@localhost]$ bash -x tenant_in-use_quota.sh tenant_id.out
 
+[user@localhost]$ bash -x tenant_change_quota.sh tenant_id.out tenant_in-use_quota_Jul-07-2019_0958.csv
+
 Requisito de SW General: python-openstackclient-3.8.1-1.el7ost.noarch

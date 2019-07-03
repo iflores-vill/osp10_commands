@@ -1,13 +1,13 @@
 # osp10_commands
 
-Comandos útiles para OSP10
+ [[ Comandos útiles para OSP10 ]]
 
 Ejemplo ejecución:
 
-[user@localhost]$ bash -x tenant_quotas_filter.sh /tmp/salida_quotas.out
+[]$ bash -x tenant_quotas_filter.sh *[/path/output_file.log]*
 
-[user@localhost]$ bash -x tenant_in-use_quota.sh tenant_id.out
+[]$ bash -x tenant_in-use_quota.sh *[/path/tenant_ids_file]*
 
-[user@localhost]$ bash -x tenant_change_quota.sh tenant_id.out tenant_in-use_quota_Jul-07-2019_0958.csv
+[]$ bash -x tenant_change_quota.sh *[/path/tenant_ids_file]* *[tenant_in-use_quota_$(date +%b-%d-%Y_%H%M).csv]*
 
-Requisito de SW General: python-openstackclient-3.8.1-1.el7ost.noarch
+Requisito de SW General: *python-openstackclient-3.8.1-1.el7ost.noarch*
